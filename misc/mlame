@@ -186,7 +186,7 @@ for src in "$@"; do
         ;;
 
     * ) # the rest
-        echo warning: File extention \'.${src##*.}\' not supported
+        echo warning: File extension \'.${src##*.}\' not supported
         sleep $errordelay
         ;;
 

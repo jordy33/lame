@@ -23991,7 +23991,7 @@
 
 	* configure.in:
 
-	add gcc 3 specific optimizations, based upon suggestions by Sébastien FORESTIER <forestie@caramail.com>
+	add gcc 3 specific optimizations, based upon suggestions by Sï¿½bastien FORESTIER <forestie@caramail.com>
 
 2002-01-07 10:35  aleidinger
 
@@ -34717,7 +34717,7 @@
 
 	* lame.bat:
 
-	long file names on in for, thanks to Ihárosi Wiktor
+	long file names on in for, thanks to Ihï¿½rosi Wiktor
 
 2000-07-27 16:42  takehiro
 
@@ -35748,7 +35748,7 @@
 	added .ogg file decoding.
 	Re-encode all your Vorbis files to MP3 !!!
 
-	(or, lame --decode input.ogg output.wav might be usefull)
+	(or, lame --decode input.ogg output.wav might be useful)
 
 2000-06-07 23:36  markt
 
@@ -38453,7 +38453,7 @@
 
 	* parse.c:
 
-	added "--preset type" option to offer users some usefull presettings
+	added "--preset type" option to offer users some useful presettings
 	that should shorten the commandline for most cases
 
 2000-02-04 21:42  afaber
@@ -39306,7 +39306,7 @@
 
 	* USAGE, globalflags.h, lame.c, reservoir.c:
 
-	added the --nores option to disable the bitreservoir.  only usefull
+	added the --nores option to disable the bitreservoir.  only useful
 	in special circumstances
 
 1999-12-16 05:24  markt

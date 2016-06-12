@@ -121,7 +121,7 @@
 #define STOP_TYPE     3
 
 /* 
- * Mode Extention:
+ * Mode Extension:
  * When we are in stereo mode, there are 4 possible methods to store these
  * two channels. The stereo modes -m? are using a subset of them.
  *

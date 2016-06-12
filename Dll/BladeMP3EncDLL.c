@@ -65,7 +65,7 @@ static void DebugPrintf(const char* pzFormat, ...)
         szFileName,
         sizeof( szFileName ) );
 
-    // change file name extention
+    // change file name extension
     szFileName[ strlen(szFileName) - 3 ] = 't';
     szFileName[ strlen(szFileName) - 2 ] = 'x';
     szFileName[ strlen(szFileName) - 1 ] = 't';

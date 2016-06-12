@@ -747,7 +747,7 @@ get_audio_common(lame_t gfp, int buffer[2][1152], short buffer16[2][1152])
         tmp_num_samples = lame_get_num_samples(gfp);
     }
 
-    /* if this flag has been set, then we are carefull to read
+    /* if this flag has been set, then we are careful to read
      * exactly num_samples and no more.  This is useful for .wav and .aiff
      * files which have id3 or other tags at the end.  Note that if you
      * are using LIBSNDFILE, this is not necessary 

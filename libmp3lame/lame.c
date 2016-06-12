@@ -2006,7 +2006,7 @@ lame_encode_buffer_interleaved(lame_global_flags * gfp,
  but keep all PCM samples and MDCT data in memory
  This option is used to break a large file into several mp3 files
  that when concatenated together will decode with no gaps
- Because we set the reservoir=0, they will also decode seperately
+ Because we set the reservoir=0, they will also decode separately
  with no errors.
 *********************************************************************/
 int

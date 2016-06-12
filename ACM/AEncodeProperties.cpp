@@ -394,7 +394,7 @@ bool AEncodeProperties::Config(const HINSTANCE Hinstance, const HWND HwndParent)
 {
 	//WM_INITDIALOG ?
 
-	// remember the instance to retreive strings
+	// remember the instance to retrieve strings
 //	hDllInstance = Hinstance;
 
 	my_debug.OutPut("here");

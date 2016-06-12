@@ -1038,7 +1038,7 @@ outer_loop(lame_internal_flags * gfc, gr_info * const cod_info, const FLOAT * co
             int     maxggain = 255;
 
             /* When quantization with no distorted bands is found,
-             * allow up to X new unsuccesful tries in serial. This
+             * allow up to X new unsuccessful tries in serial. This
              * gives us more possibilities for different quant_compare modes.
              * Much more than 3 makes not a big difference, it is only slower.
              */

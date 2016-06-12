@@ -419,7 +419,7 @@ described in the ISO documentation.
 
 FORCED MID/SIDE STEREO forces all frames to be encoded mid/side stereo.  It 
 should only be used if you are sure every frame of the input file
-has very little stereo seperation.  
+has very little stereo separation.  
 
 DUAL CHANNELS   Not supported.
 
