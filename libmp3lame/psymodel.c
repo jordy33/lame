@@ -1523,7 +1523,7 @@ L3psycho_anal_vbr(lame_internal_flags * gfc,
                         t2 = NS_INTERP(prev_thm, thmm, NS_PREECHO_ATT2 * pcfact);
                     }
                     else if ((sblock == 0 && psv->last_attacks[chn] == 3)
-                             || (sblock > 0 && ns_attacks[chn][sblock - 1] == 3)) { /* 2nd preceeding block */
+                             || (sblock > 0 && ns_attacks[chn][sblock - 1] == 3)) { /* 2nd preceding block */
                         switch (sblock) {
                         case 0:
                             prev_thm = last_thm[chn].s[sb][1];

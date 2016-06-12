@@ -833,7 +833,7 @@ has_SSE2(void)
 void
 disable_FPE(void)
 {
-/* extremly system dependent stuff, move to a lib to make the code readable */
+/* extremely system dependent stuff, move to a lib to make the code readable */
 /*==========================================================================*/
 
 

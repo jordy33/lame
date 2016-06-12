@@ -605,7 +605,7 @@ int CDECL lame_get_totalframes(const lame_global_flags *);
 /* RadioGain value. Multiplied by 10 and rounded to the nearest. */
 int CDECL lame_get_RadioGain(const lame_global_flags *);
 
-/* AudiophileGain value. Multipled by 10 and rounded to the nearest. */
+/* AudiophileGain value. Multiplied by 10 and rounded to the nearest. */
 int CDECL lame_get_AudiophileGain(const lame_global_flags *);
 
 /* the peak sample */

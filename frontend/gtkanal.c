@@ -1182,7 +1182,7 @@ text_window(GtkWidget * widget, gpointer data)
                         "bits into the reservoir, which it may allocate for some future frame. "
                         "The two numbers after mdb are the size (in bits) used to encode the "
                         "MDCT coefficients for this frame, followed byt the size of the bit "
-                        "resevoir before encoding this frame.  The maximum frame size and a "
+                        "reservoir before encoding this frame.  The maximum frame size and a "
                         "running average are given in the Stats pull down menu.  A large "
                         "maximum frame size indicates the bitstream has made use of the bit "
                         "reservoir. \n\n", -1);

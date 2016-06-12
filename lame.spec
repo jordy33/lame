@@ -179,7 +179,7 @@ find doc/html -name "Makefile*" | xargs rm -f
 
 * Fri Jun 30 2000 Keitaro Yosimura �ramsy@linux.or.jp�
 - Updated RPM to 3.84alpha.
-- Better attempt at an RPM, independant of 3.83 release.
+- Better attempt at an RPM, independent of 3.83 release.
 - (This is all surmise as there was no changelog).
 
 * Thu May 30 2000 Georges Seguin �crow@planete.net� 

@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
 	strcpy(strFileIn ,argv[1]);
 	strcpy(strFileOut,argv[1]);
 
-	// Add mp3 extention
+	// Add mp3 extension
 	strcat(strFileOut,".mp3");
 
 	// Load lame_enc.dll library (Make sure though that you set the 

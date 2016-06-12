@@ -63,7 +63,7 @@ Run the following commands:
 % make install
 
 For a complete list of options, try "./configure --help"
-Some of the more usefull options:
+Some of the more useful options:
 
 For the encoding library:
 
@@ -83,7 +83,7 @@ For the LAME front end encoder:
                               (if --with-fileio=sndfile)
 
 
-Other usefull configure options:
+Other useful configure options:
 
   --enable-debug              Build a debug version
 

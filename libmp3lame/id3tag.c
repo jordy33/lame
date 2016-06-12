@@ -1505,7 +1505,7 @@ lame_get_id3v2_tag(lame_global_flags * gfp, unsigned char *buffer, size_t size)
                 id3v2AddAudioDuration(gfc, gfp->num_samples);
             }
 
-            /* calulate size of tag starting with 10-byte tag header */
+            /* calculate size of tag starting with 10-byte tag header */
             tag_size = 10;
             for (i = 0; i < gfc->tag_spec.num_values; ++i) {
                 tag_size += 6 + strlen(gfc->tag_spec.values[i]);

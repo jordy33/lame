@@ -155,7 +155,7 @@ protected:
     // Compressor private data
     lame_global_flags * pgf;
 
-    // Compressor miscelaneous state
+    // Compressor miscellaneous state
     BOOL                m_bInpuTypeSet;
     BOOL                m_bOutpuTypeSet;
 

@@ -894,7 +894,7 @@ int  has_ext ( const char* name, const char* ext )
 
 
 typedef struct {
-    const char* const  extention;
+    const char* const  extension;
     const char* const  command;
 } decoder_t;
 
@@ -968,7 +968,7 @@ int  readwave ( stereo_t* buff, size_t maxlen, const char* name, size_t* len )
 
     fprintf (stderr, "Reading %s", name );
     for ( i = 0; i < sizeof(decoder)/sizeof(*decoder); i++ )
-        if ( has_ext (name, decoder[i].extention) ) {
+        if ( has_ext (name, decoder[i].extension) ) {
             sprintf ( command, decoder[i].command, name_q );
             break;
         }

@@ -51,7 +51,7 @@ void TiXmlBase::PutString( const std::string& str, std::ostream* stream )
 			stream->write( &str.at( i ), next - i );
 		i = next;
 
-		// Check for the special "&#x" entitity
+		// Check for the special "&#x" entity
 		if (    i < str.length() - 2
 		     && str[i] == '&'
 			 && str[i+1] == '#'

@@ -514,7 +514,7 @@ const uint32_t table56[4 * 4] = {
 /* 
  * 0: MPEG-2 LSF
  * 1: MPEG-1
- * 2: MPEG-2.5 LSF FhG extention                  (1995-07-11 shn)
+ * 2: MPEG-2.5 LSF FhG extension                  (1995-07-11 shn)
  */
 
 typedef enum {

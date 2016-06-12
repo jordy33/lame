@@ -223,7 +223,7 @@ lame_set_analysis(lame_global_flags * gfp, int analysis)
         /* default = 0 */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > analysis || 1 < analysis)
             return -1;
@@ -252,7 +252,7 @@ lame_set_bWriteVbrTag(lame_global_flags * gfp, int bWriteVbrTag)
         /* default = 1 (on) for VBR/ABR modes, 0 (off) for CBR mode */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > bWriteVbrTag || 1 < bWriteVbrTag)
             return -1;
@@ -282,7 +282,7 @@ lame_set_decode_only(lame_global_flags * gfp, int decode_only)
         /* default = 0 (disabled) */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > decode_only || 1 < decode_only)
             return -1;
@@ -412,7 +412,7 @@ lame_set_mode_automs(lame_global_flags * gfp, int mode_automs)
         /* default = 0 (disabled) */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > mode_automs || 1 < mode_automs)
             return -1;
@@ -441,7 +441,7 @@ lame_set_force_ms(lame_global_flags * gfp, int force_ms)
         /* default = 0 (disabled) */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > force_ms || 1 < force_ms)
             return -1;
@@ -470,7 +470,7 @@ lame_set_free_format(lame_global_flags * gfp, int free_format)
         /* default = 0 (disabled) */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > free_format || 1 < free_format)
             return -1;
@@ -500,7 +500,7 @@ lame_set_findReplayGain(lame_global_flags * gfp, int findReplayGain)
         /* default = 0 (disabled) */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > findReplayGain || 1 < findReplayGain)
             return -1;
@@ -533,7 +533,7 @@ lame_set_decode_on_the_fly(lame_global_flags * gfp, int decode_on_the_fly)
         /* default = 0 (disabled) */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > decode_on_the_fly || 1 < decode_on_the_fly)
             return -1;
@@ -758,7 +758,7 @@ lame_set_copyright(lame_global_flags * gfp, int copyright)
         /* default = 0 (disabled) */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > copyright || 1 < copyright)
             return -1;
@@ -787,7 +787,7 @@ lame_set_original(lame_global_flags * gfp, int original)
         /* default = 1 (enabled) */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > original || 1 < original)
             return -1;
@@ -819,7 +819,7 @@ lame_set_error_protection(lame_global_flags * gfp, int error_protection)
         /* default = 0 (disabled) */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > error_protection || 1 < error_protection)
             return -1;
@@ -876,7 +876,7 @@ lame_set_extension(lame_global_flags * gfp, int extension)
     if (is_lame_global_flags_valid(gfp)) {
         /* default = 0 (disabled) */
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > extension || 1 < extension)
             return -1;
@@ -904,7 +904,7 @@ lame_set_strict_ISO(lame_global_flags * gfp, int val)
     if (is_lame_global_flags_valid(gfp)) {
         /* default = 0 (disabled) */
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (val < MDB_DEFAULT || MDB_MAXIMUM < val)
             return -1;
@@ -938,7 +938,7 @@ lame_set_disable_reservoir(lame_global_flags * gfp, int disable_reservoir)
         /* default = 0 (disabled) */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > disable_reservoir || 1 < disable_reservoir)
             return -1;
@@ -1254,7 +1254,7 @@ lame_set_VBR_hard_min(lame_global_flags * gfp, int VBR_hard_min)
         /* default = 0 (disabled) */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > VBR_hard_min || 1 < VBR_hard_min)
             return -1;
@@ -1677,7 +1677,7 @@ lame_set_useTemporal(lame_global_flags * gfp, int useTemporal)
         /* default = 1 (enabled) */
 
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 <= useTemporal && useTemporal <= 1) {
             gfp->useTemporal = useTemporal;
@@ -1794,7 +1794,7 @@ lame_set_no_short_blocks(lame_global_flags * gfp, int no_short_blocks)
 {
     if (is_lame_global_flags_valid(gfp)) {
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 <= no_short_blocks && no_short_blocks <= 1) {
             gfp->short_blocks = no_short_blocks ? short_block_dispensed : short_block_allowed;
@@ -1830,7 +1830,7 @@ lame_set_force_short_blocks(lame_global_flags * gfp, int short_blocks)
 {
     if (is_lame_global_flags_valid(gfp)) {
         /* enforce disable/enable meaning, if we need more than two values
-           we need to switch to an enum to have an apropriate representation
+           we need to switch to an enum to have an appropriate representation
            of the possible meanings of the value */
         if (0 > short_blocks || 1 < short_blocks)
             return -1;

@@ -2212,7 +2212,7 @@ parse_args(lame_global_flags * gfp, int argc, char **argv,
                         break;
                     case 'X':
                         /*  experimental switch -X:
-                            the differnt types of quant compare are tough
+                            the different types of quant compare are tough
                             to communicate to endusers, so they shouldn't
                             bother to toy around with them
                          */

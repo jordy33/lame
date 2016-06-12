@@ -89,7 +89,7 @@ int lame_encode_flush(lame_global_flags *,char *mp3buffer, int mp3buffer_size);
 void lame_mp3_tags_fid(lame_global_flags *,FILE* fid);
 
 This adds a valid mp3 frame which contains information about the
-bitstream some players may find usefull.  It is used for CBR,ABR and
+bitstream some players may find useful.  It is used for CBR,ABR and
 VBR.  The routine will attempt to rewind the output stream to the
 beginning.  If this is not possible, (for example, you are encoding to
 stdout) you should specifically disable the tag by calling

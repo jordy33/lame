@@ -122,7 +122,7 @@ ResvFrameBegin(lame_internal_flags * gfc, int *mean_bits)
  *
  *      l3_side->resvDrain_pre:
  *         ancillary data to be added to previous frame:
- *         (only usefull in VBR modes if it is possible to have
+ *         (only useful in VBR modes if it is possible to have
  *         maxmp3buf < fullFrameBits)).  Currently disabled,
  *         see #define NEW_DRAIN
  *         2010-02-13: RH now enabled, it seems to be needed for CBR too,

@@ -489,7 +489,7 @@ switch (msg) {
 // Special message handlers
 //////////////////////////////////////////////////////////////////////
 /*!
-	Retreive the config details of this ACM driver
+	Retrieve the config details of this ACM driver
 	The index represent the specified format
 
 	\param a_FormatDetails will be filled with all the corresponding data
@@ -564,7 +564,7 @@ inline DWORD ACM::OnFormatDetails(LPACMFORMATDETAILS a_FormatDetails, const LPAR
 }
 
 /*!
-	Retreive the details of each known format by this ACM driver
+	Retrieve the details of each known format by this ACM driver
 	The index represent the specified format (0 = MP3 / 1 = PCM)
 
 	\param a_FormatTagDetails will be filled with all the corresponding data
@@ -664,7 +664,7 @@ inline DWORD ACM::OnFormatTagDetails(LPACMFORMATTAGDETAILS a_FormatTagDetails, c
 }
 
 /*!
-	Retreive the global details of this ACM driver
+	Retrieve the global details of this ACM driver
 
 	\param a_DriverDetail will be filled with all the corresponding data
 */
